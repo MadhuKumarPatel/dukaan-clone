@@ -1,0 +1,1210 @@
+*{
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Archivo', sans-serif;;
+}
+
+header{
+    background-color:#ffffff;
+    width: 100%;
+    height: 90px;
+}
+.nav-bar{
+    height: 90px;
+    width: 85%;
+    margin:auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+}
+.nav-logo img{
+    /* width: 156px; */
+    height: 44px;
+    cursor: pointer;
+}
+.nav-links {
+    display: flex;
+    gap: 40px;
+}
+.nav-links a:hover {
+    text-decoration: underline #1a181e;
+}
+.fnt-size{
+    font-size: 20px;
+    color: #1a181e;
+    font-weight: 400;
+}
+.nav-btn{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+.nav-btn .signin a:hover{
+    text-decoration: underline #1a181e;
+}
+.nav-btn .startfree button{
+    height: 50px;
+    width: 120px;
+    padding: 12px 12px;
+    color: #ffffff;
+    background-color: #146eb4;
+    border-radius: 4px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.nav-btn .startfree button:hover{
+    transform: translateY(-5px);
+}
+
+/* section-1 */
+.hero-section1{
+    background-image: url(./banner-home.webp);
+    background-repeat: no-repeat;    
+    width: 100%;     
+    background-size: cover;
+}
+.section-1{
+    display: flex;
+    margin-left: 5%;
+}
+.section1-left{
+   padding-top: 100px;
+}
+.section1-left h1{
+    font-size: 48px;
+    line-height: 54px;
+    font-weight: bold;
+}
+.section1-left p{
+    font-size: 22px;
+    /* width: 80%; */
+    line-height: 28px;
+    font-weight: 400;
+    color: #4d4d4d;
+    padding-top: 25px;
+}
+.section1-left button{
+    height: 60px;
+    width: 160px;
+    padding: 16px 22px;
+    color: #ffffff;
+    background-color: #146eb4;
+    border-radius: 4px;
+    font-size: 22px;
+    font-weight: 500;   
+    margin-top: 40px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.section1-left button:hover {
+    transform: translateY(-3px);
+}
+.section1-socials{
+    padding-top: 20px;
+}
+.section1-socials img{
+    margin-left: 5px;
+    position: relative;
+    top: 5px;
+    cursor: pointer;
+}
+
+.section1-right{
+   margin-top: -80px;
+}
+.section1-right .hero-img img{
+    width: 100%;    
+}
+
+/* section2 */
+
+.scroll-content{
+   width: 100%;
+   /* margin-bottom: 50px; */
+}
+.scroll-img {
+    background-color: #1a181e;;
+    height: 60px;
+    width: 100%;
+    padding: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.images img{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+/* herocnt...... */
+.hero-msg {
+    max-width: 890px;
+    margin: 0 auto 64px;
+    text-align: center;
+    margin-top: 50px;
+}
+.hero-msg p{
+    color:black;
+    font-size: 36px;
+    line-height: 42px;
+    font-weight: 500;
+}
+.hero-content{
+    width: 100%;
+}
+.content-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+    width: 80%;
+    align-items: center;
+    margin: auto;
+}
+.launchimg img{
+    height: 100%;
+    width: 100%;
+}
+.launch-cnt h2{
+    margin-top: 10px;
+    margin-left: 40px;
+    font-size: 30px;
+    color: #1a181e;
+    font-weight: 500;
+}
+.launch-cnt ul li{
+    margin-top: 30px;
+    margin-left: 10px;
+    list-style: circle;
+    font-size: 20px;
+    color: #1a181e;
+}
+
+/* content-2 */
+
+.content-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* grid-template-rows: 420px; */
+    gap: 80px;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 60px;
+}
+.scaleimg img{
+    height: 100%;
+    width: 100%;
+}
+.scale-cnt h2{
+    margin-top: 10px;
+    margin-left: 40px;
+    font-size: 30px;
+    color: #1a181e;
+    font-weight: 500;
+}
+.scale-cnt ul li{
+    margin-top: 30px;
+    margin-left: 10px;
+    list-style: circle;
+    font-size: 20px;
+    color: #1a181e;
+}
+
+/* content-3 */
+.cnt-3{
+    margin-top: 60px;
+}
+
+/* herocontent-3 */
+.hero-cnt-2{
+   background-color: #FAB73B1A;
+   min-height: 100%;
+   width: 100%;
+   margin-top: 100px;
+}
+
+.hero-cnt-2 .tool-msg{
+    text-align: center;
+
+}
+.tool-msg{
+    position: relative;
+    top: 60px;
+}
+
+.tool-msg h1{
+    font-size: 36px;
+    font-weight: 500;
+    color: #1a181e;
+}
+.tool-msg h2{
+    font-size: 20px;
+    font-weight: 400;
+    color: #4d4d4d;
+    margin-top: 20px;
+}
+
+.tools{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px; 
+    width: 80%;
+    margin: auto;
+    padding-bottom: 50px;
+    margin-top: 120px;
+}
+.tools .tool1{
+    /* height: 100%;
+    width: 100%; */
+    background-color: white;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    text-align: center;
+    box-shadow:  0 2px 8px rgba(26,24,30,.06);
+}
+.tools .tool1 img{
+    height: 100px;
+    width: 100px;
+    margin: 15px;
+}
+.tools .tool1 h2{
+    font-size: 22px;
+    color: #1a181e;
+    font-weight: 500;
+}
+.tools .tool1 p{
+    font-size: 18px;
+    color:#4d4d4d;
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    line-height: 30px;
+}
+.tool-msg-1{
+    margin-top: 50px;
+}
+.tool-msg-1 h1{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 500;
+    color: #1a181e;
+}
+ /* themes */
+ 
+ .themes-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+    width: 85%;
+    margin: auto;
+    margin-top: 80px;
+ }
+ .themes-section .theme-1 img{
+    height: 90%;
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow:  0 2px 8px rgba(26,24,30,.06);
+    transition: 0.2s;
+ }
+ .themes-section .theme-1 img:hover {
+    transform: scale(1.05, 1.05);
+ }
+ .theme-1 p{
+    font-size: 24px;
+    color: #1a181e;
+    margin-top: 20px;
+ }
+.the-1{
+    margin-top: 40px;
+}
+.button-view{
+    display: flex;
+    justify-content: center;
+}
+.button-view button{
+    height: 55px;
+    width: 110px;
+    border: 1px solid black;
+    background-color: transparent;
+    font-size: 20px;
+    padding: 12px 12px;
+    color: #1a181e;
+    border-radius: 4px;
+    font-weight: 500;
+    margin-top: 40px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.button-view button:hover{
+    background-color: #1a181e;
+    color: white;
+    transform: translateY(-4px);
+}
+.testimonials{
+    margin-top: 80px;
+    max-width: 550px;
+    margin: auto;
+    margin-top: 60px;
+}
+.testimonials img{
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    margin-left: 220px;
+}
+.testimonials h1{
+    font-size: 36px;
+    font-weight: 500;
+    color: #1a181e;
+}
+.testimonials p{
+    font-size: 20px;
+    font-weight: 400;
+    color:#4d4d4d;
+    margin-top: 20px;
+}
+
+/* .testimonials00 */
+ .testi-bg-img{
+   background-color: #FAB73B1A;
+   margin-top: 60px;
+   width: 100%;
+ }
+.testimonial-cnt{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    justify-content: space-evenly;
+    gap: 40px;
+   padding-top: 50px;
+   padding-bottom: 50px;
+    width: 90%;
+    height: 100%;
+    margin: auto;
+}
+.testi-bg-img .testimonial-cnt .testi-1{
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    width: 100%;
+    box-shadow:  0 2px 8px rgba(26,24,30,.08);
+    padding-bottom: 30px;
+   
+}
+.testi-1 img{
+    height: 100px;
+    width: 100px;
+    margin-top: 30px;
+}
+.testi-1 h2{
+    font-size: 22px;
+    color: #1a181e;
+    font-weight: 500;
+    margin-top: 15px;
+}
+.testi-1 p{
+    font-size: 19px;
+    color: #808080;
+    text-align: justify;
+    margin: 25px 50px;
+    line-height: 30px;
+}
+.testi-1 h3{
+    font-size: 18px;
+    color: #1a181e;
+    font-weight: 500;
+}
+.testi-1 span{
+    font-size: 18px;
+    color: #808080;
+}
+/* enterprises */
+
+.enterprises{
+    background-color: #1a181e;
+    background-image: url(./banner-bg-grid.svg);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+.enterprise-cnt{
+    width: 80%;
+    margin: auto;
+    padding-bottom: 40px;
+}
+.enterprise-cnt h1{
+    font-size: 36px;
+    font-weight: 500;
+    color: #ffffff;
+    /* width: 50%; */
+    text-align: center;
+    margin: auto;
+    padding-top: 40px;
+}
+.enterprise-cnt p{
+    font-size: 20px;
+    color: #cccccc;
+    /* width: 50%; */
+    margin: auto;
+    text-align: center;
+    line-height: 30px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+.lists{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+
+.lists .list-1 ul li{
+    font-size: 20px;
+    color: #d9d9d9;
+    list-style: disc;
+    line-height: 40px;
+}
+.enter-btn{
+    text-align: center;
+}
+.enter-btn button{
+    height: 55px;
+    width: 120px;
+    border: 1px solid white;
+    background-color: transparent;
+    font-size: 20px;
+    color: #ffffff;
+    border-radius: 4px;
+    font-weight: 400;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.enter-btn button:hover{
+    background-color: white;
+    color: #1a181e;
+    transform: translateY(-3px);
+    font-weight: 500;
+}
+/* selling..... */
+
+.selling{
+    background-image: url(./pink-bg.webp);
+    width: 80%;
+    margin: auto;
+    /* height: 400px; */
+    margin-top: 60px;
+    border-radius: 20px;
+}
+.selling-cnt{
+    width: 80%;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.selling-cnt img{
+   padding-bottom: 20px;
+}
+.selling-cnt h1{
+    font-size: 48px;
+    font-weight: 600;
+}
+.selling-cnt p{
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.selling-cnt button{
+    height: 55px;
+    width: 120px;
+    background-color: black;
+    color: #ffffff;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.2s;
+}
+.selling-cnt button:hover {
+    background-color: white;
+    color: #1a181e;
+    transform: translateY(-3px);
+    font-weight: 500;
+}
+/* footer.......... */
+
+.footer-bg{
+    background-color: #1a181e;
+    width: 100%;
+    margin-top: 50px;
+   padding-bottom: 30px;
+}
+.footer{
+    display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   position: relative;
+   top: 20px;
+   align-items: start;
+}
+.footer-img{
+    width: 70%;
+    margin: auto;
+    padding-top: 30px;
+}
+.footer-img img{
+    width: 150px;
+}
+.footlist-1 ul a li{
+    font-size: 18px;
+    color: #ffffff;
+    line-height: 40px;
+}
+.footlist-1 ul a li:hover{
+    text-decoration: underline white;
+}
+.foot-2{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: auto;
+    padding-top: 50px;
+}
+.foot-2 h2{
+    font-size: 17px;
+    color: #ffffff;
+    font-weight: 400;
+    word-spacing: 3px;
+}
+.foot-2 p{
+    font-size: 17px;
+    color: #ffffff;
+    font-weight: 400;
+    margin-left: 50px;
+    word-spacing: 5px;
+}
+.chatbutton{
+    display: flex;
+    justify-content: right;
+    position: fixed;
+    bottom: 40px;
+    right: 50px;
+}
+.chatimg img{
+    height: 60px;
+    width: 60px;
+    transition: 0.5s;
+}
+.chatimg img:hover{
+    height: 70px;
+    width: 70px;
+}
+
+/* **********media qureries mobile...... */
+
+@media screen and (min-width:320px) and (max-width:425px) {
+    .nav-logo img{
+        width: 130px ;
+        height: 60px;
+        cursor: pointer;
+    }
+    .nav-links {
+        display: none;
+    
+    }
+    .nav-btn .startfree button{
+        width: 90px;
+        font-size: 16px;
+        height: 40px;
+        margin-top: 5px;
+    }
+    .signin{
+        margin-bottom: 20px;
+    }
+    .nav-btn{
+        display: flex;
+        gap: 10px;
+    }
+    .section1-left h1{
+        font-size: 25px;
+        line-height: 30px;
+        font-weight: 500;
+    }
+    .section1-left p{
+        font-size: 18px;
+    }
+    .section1-right .hero-img img{
+        display: none;
+    }
+    .section1-left{
+        padding-top: 20px;
+    }
+    .section1-left p{
+        padding-top: 15px;
+    }
+    .section1-left button{
+        width: 100px;
+        height: 40px;
+        font-size: 16px;
+        padding: 10px 1px;
+        margin-top: 15px;
+    }
+    .section1-socials{
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+    .scroll-img {
+        background-color: #1a181e;;
+        height: 60px;
+        padding: 40px;
+    }
+    .hero-msg{
+        margin-top: 30px;
+    }
+    .hero-msg p{
+        font-size: 24px;
+        line-height: 30px;
+        font-weight: 500;
+    }
+    .content-1{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .launch-cnt h2{
+        font-size: 20px;
+    }
+    .launch-cnt ul li{
+        margin-top: 10px ;
+        font-size: 16px;
+    }
+    .hero-content{
+        margin-top: -30px;
+    }
+    .content-2{
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        margin-top: 30px;
+    }
+    .scale-cnt h2{
+        font-size: 20px;
+        margin-top: 0px;
+    }
+    .scale-cnt ul li{
+        margin-top: 10px ;
+        font-size: 16px;
+    }
+    .cnt-3{
+        margin-top: 30px;
+    }
+    .hero-cnt-2{
+        margin-top: 40px
+    }
+    .hero-cnt-2 .tool-msg{
+        text-align: center;
+    
+    }
+    .tool-msg{
+        position: relative;
+        top: 30px;
+    }
+    .tool-msg h1{
+        font-size: 25px;
+    }
+    .tool-msg h2{
+        font-size: 16px;
+    }
+    .tools{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 40px;
+        margin-top: 60px;
+    }
+    .tool-msg-1{
+        margin-top: 30px;
+    }
+    .tool-msg-1 h1{
+        font-size: 26px;
+    }
+    .themes-section{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        margin-top: 40px;
+    }
+    .theme-1 p{
+        font-size: 20px;
+    }
+    .theme-1 img{
+    box-shadow:  0 2px 8px rgba(26,24,30,.06);
+    }
+    .testimonials{
+        margin-top: 30px;
+    }
+    .testimonials img{
+        height: 50px;
+        width: 50px;
+        text-align: center;
+        position: relative;
+        right: 40px;
+    }
+    .testimonials h1{
+        font-size: 26px;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .testimonials p{
+        font-size: 18px;
+        text-align: center;
+    }
+    .testi-bg-img{
+        margin-top: 40px;
+    }
+    .testimonial-cnt{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .testi-1 img{
+        height: 70px;
+        width: 70px;
+        margin-top: 15px;
+    }
+    .testi-1 h2{
+        font-size: 20px;
+        margin-top: 5px;
+    }
+    .testi-1 p{
+        font-size: 16px;
+        margin: 5px 20px;
+    }
+    .enterprise-cnt h1{
+        font-size: 26px;
+        padding-top: 30px;
+    }
+    .enterprise-cnt p{
+        font-size: 18px;
+    }
+    .lists{
+        margin-top: 20px;
+        gap: 30px;
+    }
+    .lists .list-1 ul li{
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .enter-btn{
+        margin-top: 20px;
+    }
+    .enter-btn button{
+       width: 100px;
+       font-size: 16px;
+       height: 45px;
+    }
+    .selling{
+        width: 90%;
+        margin: auto;
+        margin-top: 30px;
+    }
+    .selling-cnt{
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .selling-cnt img{
+        height: 50px;
+        width: 50px;
+        padding-bottom: 10px;
+    }
+    .selling-cnt h1{
+        font-size: 26px;
+        font-weight: 500;
+    }
+    .selling-cnt p{
+        font-size: 16px;
+        padding-top: 10px;
+        padding-bottom: 15px;
+    }
+    .selling-cnt button{
+        width: 90px;
+        height: 40px;
+        font-size: 14px;
+    }
+    .footer{
+        display: flex;
+        justify-content: space-around;
+        align-items: start;
+    }
+    .footlist1{
+        display: none;
+    }
+    .footer-img{
+        display: none;
+    }
+    .footlist-1 ul a li{
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .foot-2{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    padding-top: 35px;
+    }
+    .foot-2 h2{
+        font-size: 12px;
+    }
+    .foot-2 p{
+        font-size: 12px;
+        padding-top: 5px;
+    }
+    .foot-2 p img{
+        height: 12px;
+        width: 12px;
+    }
+}
+
+/* @media screen and (min-width:426px) and (max-width:768px) { */
+
+@media screen and (min-width:426px) and (max-width:768px) {
+    .nav-links {
+        display: none;
+    }
+    .section1-right .hero-img img{
+        display: none;
+    }
+    .section1-left{
+        padding-top: 40px;
+        padding-bottom: 30px;
+     }
+    .section-1{
+        margin-right: 3%;
+    }
+    .section1-left h1{
+        font-size: 38px;
+        line-height: 40px;
+    }
+    .section1-left p{
+        padding-top: 15px;
+    }
+    .section1-left button{
+        margin-top: 20px;
+    }
+    .scroll-img{
+        padding: 40px;
+    }
+    .hero-msg p{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .content-1{
+        display: grid;
+        width: 90%;
+        margin: auto;
+        gap: 0px;
+    }
+    .launch-cnt h2{
+        font-size: 24px;
+        margin-top: 2px;
+    }
+    .launch-cnt ul li{
+        margin-top: 10px;
+        font-size: 16px;
+    }
+    .content-2{
+        display: grid;
+        width: 90%;
+        margin: auto;
+        gap: 20px;
+        margin-top: 60px;
+    }
+    .scale-cnt h2{
+        font-size: 24px;
+        margin-top: 2px;
+    }
+    .scale-cnt ul li{
+        margin-top: 10px;
+        font-size: 16px;
+    }
+    .cnt-3{
+        margin-top: 60px;
+    }
+    .hero-cnt-2{
+        margin-top: 40px;
+    }
+    .tool-msg{
+        position: relative;
+        top: 40px;
+    }
+    .tool-msg h1{
+        font-size: 30px;
+    }
+    .tool-msg h2{
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    .tools{
+        margin-top: 80px;
+        width: 94%;
+        display: grid;
+        gap: 15px;
+    }
+    .tools .tool1 img{
+        height: 80px;
+    width: 80px;
+    margin: 8px;
+    }
+    .tools .tool1 h2{
+        font-size: 20px;
+    }
+    .tools .tool1 p{
+        font-size: 17px;
+        line-height: 25px;
+    }
+    .testi-bg-img{
+        margin-top: 40px;
+    }
+    .testimonial-cnt{
+        display: grid;
+        width: 90%;
+        margin: auto;
+        gap:20px;
+    }
+    .testi-1 img{
+      margin-top: 0px;
+    }
+    .testi-1 h2{
+        font-size: 20px;
+        margin-top: 0px;
+    }
+    .testi-1 p{
+        font-size: 17px;
+        margin: 15px;
+    }
+    .enterprise-cnt{
+        width: 90%;
+    }
+    .enterprise-cnt h1{
+        font-size: 30px;
+        padding-top: 50px;
+    }
+    .enterprise-cnt p{
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    .lists{
+        margin-top: 20px;
+    }
+    .lists .list-1 ul li{
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .enter-btn button{
+        width: 110px;
+        height: 45px;
+        font-size: 18px;
+        margin-top: 25px;
+    }
+    .selling{
+        width: 90%;
+    }
+    .selling-cnt h1{
+        font-size: 38px;
+    }
+    .footer-img{
+        width: 80%;
+    }
+}
+/* @media screen and (min-width:768px) and (max-width:1024px) { */
+
+@media screen and (min-width:769px) and (max-width:1024px) {
+    .nav-btn{
+        display: flex;
+        gap: 15px;
+    }
+    .section1-left{
+       padding-top: 40px;
+       padding-bottom: 30px;
+    }
+    .section1-left h1{
+        font-size: 38px;
+        line-height: 40px;
+        width: 500px;
+    }
+    .section1-right{
+        margin-top: -35px;
+     }
+    .content-1{
+        display: grid;
+        width: 90%;
+        margin: auto;
+        gap: 0px;
+    }
+    .launch-cnt h2{
+        font-size: 28px;
+        margin-top: 0px;
+    }
+    .launch-cnt ul li{
+        margin-top: 20px;
+        font-size: 20px;
+    }
+    .content-2{
+        display: grid;
+        width: 90%;
+        margin: auto;
+        gap: 20px;
+        margin-top: 80px;
+    }
+    .scale-cnt h2{
+        font-size: 28px;
+        margin-top: 0px;
+    }
+    .scale-cnt ul li{
+        margin-top: 20px;
+        font-size: 20px;
+    }
+    .cnt-3{
+        margin-top: 80px;
+    }
+    .enter-btn{
+        margin-top: 30px;
+    }
+    .footer-img{
+        width: 75%;
+    }
+}
+
+/* @media screen and (min-width:1024px) and (max-width:1440px)  */
+
+@media screen and (min-width:1025px) and (max-width:1440px) {
+    .section1-right{
+        margin-top: -60px;
+    }
+}
+
+/* @media screen and (min-width:0px) and (max-width:320px)  */
+ 
+@media screen and (min-width:0px) and (max-width:320px) {
+    .nav-logo img{
+        width: 100px ;
+    }
+    .nav-btn .startfree button{
+        width: 80px;
+        height:40px;
+        font-size: 14px;
+        padding: 0px;
+    }
+    .signin{
+        padding: 10px;
+    }
+    .fnt-size{
+        font-size: 17px;
+    }
+    .section1-left button{
+        font-size: 14px;
+        width: 90px;
+        height: 40px;
+    }
+    .scroll-img{
+        padding: 20px;
+    }
+    .hero-msg p{
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .hero-content{
+        margin-top: -30px;
+    }
+    .content-1{
+        gap: 10px;
+    }
+    .launch-cnt h2{
+        font-size: 18px;
+    }
+    .launch-cnt ul li{
+        font-size: 14px;
+    }
+    .scale-cnt h2{
+        font-size: 18px;
+    }
+    .scale-cnt ul li{
+        font-size: 14px;
+    }
+    .content-2{
+        margin-top: 40px;
+    }
+    .button-view button{
+        width: 80px;
+        height: 40px;
+        font-size: 16px;
+        padding: 0px;
+        margin-top: 20px;
+    }
+    .testimonials img{
+        height: 40px;
+        width: 40px;
+        margin-left: 180px;
+    }
+    .testimonials h1{
+        font-size: 20px;
+    }
+    .testimonials p{
+        font-size: 16px;
+    }
+    .testi-1 h2{
+        font-size: 20px;
+    }
+    .testi-1 p{
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .testi-1 span{
+        font-size: 16px;
+    }
+    .enterprise-cnt{
+        width: 94%;
+    }
+    .enterprise-cnt h1{
+        font-size: 20px;
+    }
+    .enterprise-cnt p{
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .lists .list-1 ul li{
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .enter-btn button{
+        height: 30px;
+        width: 90px;
+        font-size: 14px;
+    }
+    .selling-cnt h1{
+        font-size: 20px;
+    }
+    .selling-cnt p{
+        font-size: 15px;
+    }
+    .selling-cnt button{
+        font-size: 14px;
+    }
+    .footlist-1 ul a li{
+        font-size: 12px;
+    }
+    .foot-2 h2{
+        font-size: 10px;
+        word-spacing: 0px;
+    }
+    .foot-2 p{
+    display: none;
+    }
+}
+
